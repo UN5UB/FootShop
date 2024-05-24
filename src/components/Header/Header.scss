@@ -1,0 +1,20 @@
+header{
+    padding: 40px 45px 45px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+            display: flex;
+            flex-direction: row;
+            gap: 32px;
+            .nav-item {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 10px;
+                    align-items: center;
+                }
+        }
+}
+
+
+
