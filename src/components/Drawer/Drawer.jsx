@@ -1,7 +1,9 @@
 import React from 'react'
-
+import './Drawer.scss'
 export default function Drawer() {
     return (
-        <div>Drawer</div>
+        <div className='overlay'>
+            <div className='drawer'></div>
+        </div>
     )
 }
