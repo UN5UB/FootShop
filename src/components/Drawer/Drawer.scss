@@ -6,6 +6,7 @@
         border-radius: 30px;
         background: #FFFFFF;
         box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+        overflow: auto;
 }
 
 .overlay{
@@ -16,4 +17,14 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 9;
+}
+
+.drawer-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.cart-items{
+    overflow: auto;
 }

@@ -5,11 +5,11 @@ export default function Card() {
     return (
         <div className='card'>
             <a className='card-link' href="#"><img width={210} src="/Shoes/Converse.png" alt="Product" /></a>
-            <p>Converse</p>
+            <p>Chuck Taylor All Star High Top</p>
             <div className='card-info'>
                 <div className='card-price'>
                     <span>Price</span>
-                    <b>300$</b>
+                    <b>100$</b>
                 </div>
                 <div className='buttons'>
                     <button className='btn btn-check'>
