@@ -1,5 +1,5 @@
 import React from 'react';
-import DrawerButton from './DrawerButton';
+import DrawerButton from './DrawerButton.jsx';
 import './TotalDrawer.scss';
 
 export default function TotalDrawer() {

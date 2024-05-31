@@ -4,7 +4,7 @@ import DrawerItem from './DrawerItem'
 import TotalDrawer from './TotalDrawer'
 export default function Drawer() {
     return (
-        <div className='overlay'>
+        <div className='overlay' style={{display: 'none'}}>
             <div className='drawer'>
                 <div className='drawer-head'>
                     <h2>Cart</h2>
@@ -16,6 +16,12 @@ export default function Drawer() {
                     </button>
                 </div>
                 <div className='cart-items'>
+                    <DrawerItem />
+                    <DrawerItem />
+                    <DrawerItem />
+                    <DrawerItem />
+                    <DrawerItem />
+                    <DrawerItem />
                     <DrawerItem />
                     <DrawerItem />
                     <DrawerItem />

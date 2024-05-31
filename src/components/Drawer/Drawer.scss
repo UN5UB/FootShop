@@ -1,12 +1,14 @@
-.drawer{
-        position: absolute;
-        width: 385px;    
-        right: 0;
-        height: 100%;
-        border-radius: 30px;
-        background: #FFFFFF;
-        box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
-        overflow: auto;
+.drawer{ 
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 385px;    
+    right: 0;
+    height: 100%;
+    border-radius: 30px;
+    background: #FFFFFF;
+    box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+    overflow: auto;
 }
 
 .overlay{
@@ -17,6 +19,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 9;
+
 }
 
 .drawer-head{
@@ -26,5 +29,9 @@
 }
 
 .cart-items{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     overflow: auto;
 }
+

@@ -1,15 +1,15 @@
 import React from 'react';
 import './Card.scss';
 
-export default function Card() {
+export default function Card(props) {
     return (
         <div className='card'>
-            <a className='card-link' href="#"><img width={210} src="/Shoes/Converse.png" alt="Product" /></a>
-            <p>Chuck Taylor All Star High Top</p>
+            <a className='card-link' href="#"><img width={210} src={props.imageUrl} alt="Product" /></a>
+            <p>{props.title}</p>
             <div className='card-info'>
                 <div className='card-price'>
                     <span>Price</span>
-                    <b>100$</b>
+                    <b>{props.price}$</b>
                 </div>
                 <div className='buttons'>
                     <button className='btn btn-check'>
