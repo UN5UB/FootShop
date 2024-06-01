@@ -5,6 +5,14 @@
     border-radius: 40px;
     padding: 10px 20px;
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    img{
+        display: block;
+        max-width: 200px;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        border-color: 1px solid #000;
+    }
     p{
         max-width: 180px;
     }

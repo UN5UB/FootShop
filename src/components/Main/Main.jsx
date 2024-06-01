@@ -11,36 +11,29 @@ const cardInfo = [
     },
     {
         id: 2,
-        title: 'NIKE AIR FORCE 1 LOW 07',
-        price: 125,
-        imageUrl: '/public/Shoes/Nike.webp'
-    },
-    {
-        id: 3,
         title: 'КРОСІВКИ VANS SPEED BEIGE',
         price: 135,
         imageUrl: '/public/Shoes/Vans.webp'
     },
     {
-        id: 4,
+        id: 3,
         title: 'CONVERSE X CONVERSE WEAPON MID',
         price: 200,
-        imageUrl: '/public/Shoes/Vans 2.webp'
+        imageUrl: '/public/Shoes/Converse.webp'
     },
     {
-        id: 5,
+        id: 4,
         title: 'NIKE AIR MONARCH IV',
         price: 70,
-        imageUrl: '/public/Shoes/Vans 2.webp'
+        imageUrl: '/public/Shoes/Nike.webp'
     },
-   
 ]
 
 export default function Main() {
     return (
         <main>
             {cardInfo.map((obj) => (
-                <Card title={obj.title} price={obj.price} imageUrl={obj.imageUrl} />
+                <Card key={obj.id} title={obj.title} price={obj.price} imageUrl={obj.imageUrl} />
             ))}
         </main>
     )
